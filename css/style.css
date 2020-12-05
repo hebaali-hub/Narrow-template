@@ -1,0 +1,151 @@
+*:after,*:before,*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+    height:2000px;
+}
+/* ---------------------navbar-------------------------- */
+nav.navbar{
+    position: sticky;
+    top:0;
+    z-index: 10000;
+}
+.navcolor{
+    background-color:#ffffff;
+    border:none;
+    /* position: sticky;
+    top:0;
+    z-index: 10000; */
+}
+.navcolor .navbar-brand{
+    color: #a67ecf;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.navcolor .navbar-brand:focus,.navcolor .navbar-brand:hover{
+    color: #a67ecf; 
+}
+.navbar .navbar-nav .nav-item > a{
+    font-size: 16px;
+    color: #777777;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-item > a:hover,.navbar .navbar-nav .nav-item > a:focus{
+    color: #a67ecf; 
+}
+/* ---------------------navbar-------------------------- */
+/*-------------------carouse------------------------------*/
+.carousel-indicators{
+    padding-bottom: 10px;
+}
+/*-------------------carouse------------------------------*/
+/*-------------------about--products---------------------------*/
+
+section.about,section.products,section.choose{
+      width:100%;
+    height: auto;
+    padding: 50px 0px 30px 0px;
+    /* background-color: red; */
+}
+section.about div.narrow h1,section.products div.narrow h1{
+      font-size: 2em;
+    color: #a67ecf;
+   font-weight: bold;
+    margin-bottom: 2%;
+}
+section.about div.narrow p,section.products div.narrow p{
+     color: #888888;
+    line-height: 1.8;
+}
+.img {
+    width:100%;
+    height: 630px;
+    background-image: url("../img/work-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img p{
+    bottom: 0px;
+    color: #f9f9f9;
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+img{
+    width:100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+/*-------------------about--products--choose-------------------------*/
+/*-------------------service---------------------------*/
+section.service{
+    width:100%;
+    height: 400px;
+    background-image: url("../img/intro.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 30px 0;
+}
+section.service p{
+    border: 2px solid #f9f9f9;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: #f9f9f9;
+    padding: 15px;
+}
+section.choose{
+    background-color:#DDDDDD;
+    margin: 80px 0px 40px 0;
+    padding: 80px 0px 80px 0px;
+}
+section.choose i{
+position: relative;
+    top:20px
+}
+section.choose div.part{
+
+  }
+section.choose div.part h2{
+    color: #a67ecf;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section.choose div.part p{
+    margin: 0;
+    color: #777777;
+    font-size: 19px;
+}
+/*-------------------service---------------------------*/
+/*-------------------footer--------------------------*/
+
+
+footer{
+    width:100%;
+    height: auto;
+    /* padding: 10px 0px; */
+}
+footer p{
+    font-size: 20px;
+    color: #888888;
+}
+footer i{
+    width:50px;
+    height: 50px;
+    padding: 10px 0px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+
+} 
